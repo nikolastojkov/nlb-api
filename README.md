@@ -10,7 +10,7 @@ This is a thin PHP package which is a API wrapper around the [NLBCLI](https://gi
 - `git clone` this repository
 - Run `composer install`
 - Include the `NLBKlik` namespace
-- `cp .env.example .env` and change the login params OR run `nlblogin.sh` to copy login creds from `~/.nlbcli` to the `.env` file
+- `cp .env.example .env` and change the login params
 
 ## Development
 Currently the `dev-unstable` branch will be used until there's a more stable version of [NLBCLI](https://github.com/whoeverest/nlbcli)
