@@ -1,4 +1,6 @@
 # Introduction
+Disclaimer: this is an UNOFFICAL tool, it's not developed by НЛБ Банка АД Скопје. It's maintained by Nikola S.
+
 A Laravel package which is a API wrapper around the [NLBCLI](https://github.com/whoeverest/nlbcli) bin, used to get info from the CLI in a REST manner.
 
 ## Requirements
