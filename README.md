@@ -1,23 +1,23 @@
-# Initial Readme
-This is a thin PHP package which is an API wrapper around the [NLBCLI](https://github.com/whoeverest/nlbcli) bin, used to get info from the CLI in a REST manner.
+# Introduction
+Disclaimer: this is an UNOFFICAL tool, it's not developed, sponsored, or approved by НЛБ Банка АД Скопје. It's maintained by Nikola S.
+
+A Laravel package which is an API wrapper around the [NLBCLI](https://github.com/whoeverest/nlbcli) app.
 
 ## Requirements
 - [NLBCLI](https://github.com/whoeverest/nlbcli)
-- `php >= 8.0.3`
+- `php^8.0`
 
 ## Setting up
-- Login using the `nlbcli login` command
-- `git clone` this repository
-- Run `composer install`
-- Include the `NLBKlik` namespace
-- `cp .env.example .env` and change the login params
+- Install or navigate to an existing Laravel application
+- `composer require nikolastojkov/nlbklik`
+- Run `php artisan nlbklik:init` to setup [NLBCLI](https://github.com/whoeverest/nlbcli)
 
-## Development
-Currently the `dev-unstable` branch will be used until there's a more stable version of [NLBCLI](https://github.com/whoeverest/nlbcli)
-
+## Usage
 Visit the [API Docs](#) for usage.
 
-## TODO:
-- [ ] Use dotenv for the credentials
-- [ ] Make a Laravel package branch (?)
+## TODO
 - [ ] Enable logging in through the package if not logged in (use the `nlbcli login` command to generate credentials)
+- [ ] Finish `nlbklik:init` command
+- [ ] Route files for the API
+- [ ] Restructure code for stable version
+- [ ] Create Docs in GitHub Wiki
