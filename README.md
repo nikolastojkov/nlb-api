@@ -1,5 +1,5 @@
 # Initial Readme
-This is a thin PHP package which is a API wrapper around the [NLBCLI](https://github.com/whoeverest/nlbcli) bin, used to get info from the CLI in a REST manner.
+This is a thin PHP package which is an API wrapper around the [NLBCLI](https://github.com/whoeverest/nlbcli) bin, used to get info from the CLI in a REST manner.
 
 ## Requirements
 - [NLBCLI](https://github.com/whoeverest/nlbcli)
