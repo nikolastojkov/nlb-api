@@ -1,21 +1,30 @@
 {
     "name": "nikolastojkov/nlb-api",
-    "description": "An API wrapper around the whoeverest/nlbcli CLI app",
+    "description": "A Laravel wrapper package around the whoeverest/nlbcli CLI",
     "type": "library",
-    "license": "WTFPL",
+    "license": "BSD-3",
     "authors": [
         {
             "name": "Nikola Stojkov",
             "email": "stojkov@protonmail.ch"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.1.0"
+        "php": "^8.0"
     },
     "autoload": {
-        "psr-0": {
-            "NLBKlik": "src/"
+        "psr-4": {
+            "NikolaStojkov\\NLBKlik\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NikolaStojkov\\NLBKlik\\NLBKlikServiceProvider"
+            ],
+            "aliases": {
+                "NLBKlik": "NikolaStojkov\\NLBKlik\\Facades\\NLBKlik"
+            }
         }
     }
 }

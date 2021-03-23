@@ -1,8 +1,8 @@
 <?php 
 
-namespace NLBKlik;
+namespace NikolaStojkov\NLBKlik;
 
-use NLBKlik\Services\NLBAuth;
+// use NLBKlik\Services\NLBAuth;
 
 /**
  * Main package class.
@@ -18,7 +18,6 @@ class NLBKlik
         private string $password = ""
     )
     {
-        \NLBAuth::checkIfLoggedIn();
     }
 }
 
