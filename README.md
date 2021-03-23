@@ -1,14 +1,14 @@
 # Introduction
-Disclaimer: this is an UNOFFICAL tool, it's not developed by НЛБ Банка АД Скопје. It's maintained by Nikola S.
+Disclaimer: this is an UNOFFICAL tool, it's not developed, sponsored, or approved by НЛБ Банка АД Скопје. It's maintained by Nikola S.
 
-A Laravel package which is a API wrapper around the [NLBCLI](https://github.com/whoeverest/nlbcli) bin, used to get info from the CLI in a REST manner.
+A Laravel package which is an API wrapper around the [NLBCLI](https://github.com/whoeverest/nlbcli) app.
 
 ## Requirements
 - [NLBCLI](https://github.com/whoeverest/nlbcli)
 - `php^8.0`
 
 ## Setting up
-- Install or nav to a laravel application
+- Install or navigate to an existing Laravel application
 - `composer require nikolastojkov/nlbklik`
 - Run `php artisan nlbklik:init` to setup [NLBCLI](https://github.com/whoeverest/nlbcli)
 
@@ -20,3 +20,4 @@ Visit the [API Docs](#) for usage.
 - [ ] Finish `nlbklik:init` command
 - [ ] Route files for the API
 - [ ] Restructure code for stable version
+- [ ] Create Docs in GitHub Wiki
