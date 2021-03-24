@@ -3,6 +3,9 @@ Disclaimer: this is an UNOFFICAL tool, it's not developed, sponsored, or approve
 
 A Laravel package which is an API wrapper around the [NLBCLI](https://github.com/whoeverest/nlbcli) app.
 
+## Why
+I need the package for a local development project so I thought of making it. This is by no means production ready and it cannot handle multiple users as well etc.
+
 ## Requirements
 - [NLBCLI](https://github.com/whoeverest/nlbcli)
 - `php^8.0`
