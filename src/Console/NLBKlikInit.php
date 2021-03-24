@@ -10,6 +10,11 @@ class NLBKlikInit extends Command
 
     protected $description = "Initialize NLBKlik API. This will check if you have the NLBCLI installed and if you're correctly logged in.";
 
+    public function __construct()
+    {
+        parent::__construct();
+    }
+    
     public function handle()
     {
         $this->info("TODO make this command work.");
